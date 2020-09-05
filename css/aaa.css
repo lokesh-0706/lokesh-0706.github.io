@@ -1,0 +1,121 @@
+/*This code is best accessible on laptop */
+body{
+  margin:8px;
+  padding:9px;
+}
+header{
+  background-color:#FFC0CB; 
+  background-image:url("http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg");
+  background-size: 100%;
+  background-repeat:no-repeat;
+  padding: 15px;
+  text-align:center;
+}
+p{
+  font-size:20px; 
+}
+h1{
+  color:rgb(255,192,203);
+  font-variant:small-caps;
+  font-family:cursive;
+  text-transform:uppercase;
+  text-align:center;
+}
+section{
+  background:#FFFFF1;
+  margin-right: 20px;
+  font-size:18px;
+  float:left;
+  width:70%;
+  padding:5px;
+}
+section a:visited{
+  color:#008000;
+}
+h2{
+  color:#800080;
+  font-family:initial;
+  font-variant: small-caps;
+}
+nav>a{
+  display:inline-block;
+  color:#FFFFFF;
+  width:20%;
+  line-height:40px;
+  font-size:25px;
+  margin:10px;
+  background:rgba(255,165,0,.7);
+  padding: 4px;
+  opacity:70%; 
+  text-decoration: none;
+  text-align: center;
+  -webkit-border-radius:15px;
+  -moz-border-radius:15px;
+  -o-border-radius:15px;
+  border-radius: 15px;
+}
+.active{
+  color:#000000;
+  background:rgba(255,167,1,1);
+    opacity:80%;
+}
+aside{
+  margin-top: 0;
+  width:20%;
+  height:650px;
+  padding:1%;
+  float:left;
+  background:rgb(255,140,0);
+}
+aside img{
+  display:block;
+  width:80%;
+  margin:0 auto;
+  margin-bottom:30px;
+  border:4px solid rgb(0,100,0);
+}
+td{
+  border:2px solid rgb(255,255,255);
+  margin-left:10px;
+  color:rgba(255,0,0,.7);
+  font-size:20px;
+  border-radius:2px; 
+  padding:5px;
+  background:rgb(255,255,0);
+  text-shadow:1px 1px rgb(0,0,0);
+}
+table{
+  border:2px solid rgb(255,255,255);
+  border-collapse:collapse;
+  width:80%;
+  height: 500px;
+  margin:0 auto;
+  text-align: center;
+  font-family:Times, Arial, sans-serif;
+}
+tr td{
+  opacity:.7;
+}
+tr:hover td{
+  opacity:1;
+  color:rgba(255,0,0,1);
+}
+th{
+  color:rgb(255,255,255);
+  border:2px solid rgb(255,255,255);
+  border-bottom:4px solid rgb(255,255,255);
+  background:rgb(75,0,130);
+  background-image:-webkit-linear-gradient(rgb(75,0,130) 0%,rgb(255,255,0) 100%);
+  background-image:-moz-linear-gradient(rgb(75,0,130) 0%,rgb(255,255,0) 100%);
+  background-image:-o-linear-gradient(rgb(75,0,130) 0%,rgb(255,255,0) 100%);
+  background-image:linear-gradient(rgb(75,0,130) 0%,rgb(255,255,0) 100%);
+  line-height:30px;
+  border-radius:15px 15px 0 0;
+  text-transform: uppercase;
+}
+tr td:first-child{
+  text-align:left;
+}
+tr th:first-child{
+  text-align:left;
+}
