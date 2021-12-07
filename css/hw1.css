@@ -2,13 +2,14 @@
 body{
 	padding: 10px;
 	margin: 10px;
+	background-color: rgb(206, 241, 255);
 }
 header{
-	background-color: rgb(100,100,100);
+	background-color: rgb(100, 100, 100);
 	background-image: url(https://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg);
 	background-size: 100%;
 	padding: 10px;
-	background-repeat: no-repeat;: 
+	background-repeat: no-repeat;
 }
 h1{
 	color: rgb(240,250,120);
@@ -107,7 +108,7 @@ th{
 	border-bottom:solid 4px rgb(255,255,255);
 }
 tr th:first-child{
-	text-align: left;`
+	text-align: left;
 }
 tr:hover td{
 	opacity: 1;
