@@ -2,10 +2,10 @@
 body{
 	padding: 10px;
 	margin: 10px;
-	background-color: yellow;
+	background-color: rgb(206, 241, 255);
 }
 header{
-	background-color: rgb(100,100,100);
+	background-color: rgb(100, 100, 100);
 	background-image: url(https://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg);
 	background-size: 100%;
 	padding: 10px;
